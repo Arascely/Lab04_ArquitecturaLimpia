@@ -1,8 +1,7 @@
 package com.academico.application.service;
 import com.academico.application.port.in.EstudianteUseCase;
+import com.academico.application.port.out.EstudianteRepository;
 import com.academico.domain.model.Estudiante;
-//import com.academico.infrastructure.persistence.EstudianteRepositoryJson;
-import com.academico.domain.repository.EstudianteRepository;
 
 
 import java.util.List;

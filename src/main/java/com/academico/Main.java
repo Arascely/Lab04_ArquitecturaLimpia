@@ -7,7 +7,7 @@ import com.academico.presentation.EstudianteUI;
 
 import com.academico.application.service.CursoService;
 import com.academico.application.service.EstudianteService;
-import com.academico.domain.repository.EstudianteRepository;
+import com.academico.application.port.out.EstudianteRepository;
 
 import  java.util.Scanner;
 

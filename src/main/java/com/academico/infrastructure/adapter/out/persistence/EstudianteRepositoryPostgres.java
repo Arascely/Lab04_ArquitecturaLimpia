@@ -1,7 +1,7 @@
 package com.academico.infrastructure.adapter.out.persistence;
 
 import com.academico.domain.model.Estudiante;
-import com.academico.domain.repository.EstudianteRepository;
+import com.academico.application.port.out.EstudianteRepository;
 
 import java.sql.*;
 import java.util.*;
