@@ -1,0 +1,19 @@
+package com.academico.application.port.out;
+
+import com.academico.domain.model.Estudiante;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface EstudianteRepository {
+
+    void guardar(Estudiante estudiante);
+
+    List<Estudiante> listar();
+
+    Optional<Estudiante> buscarPorId(int id);
+
+    boolean actualizar(Estudiante estudiante);
+
+    boolean eliminar(int id);
+}
